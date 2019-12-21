@@ -1,0 +1,132 @@
+/*
+- Header
+	#topBar
+		#welcome
+		#tel_mail
+	#nav
+		h1
+		.menu
+
+- Contenu
+	#slider
+		.slide
+			.title
+			.description
+			.button
+
+- Footer
+*/
+
+
+body{
+	font-family: 'poppins';
+	color: #3E3E3E;
+	font-size: 14px;
+}
+
+.green{
+	color: #38ADA9;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+/* HEADER */
+header #topBar{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	font-size: 15px;
+	font-weight: lighter;
+	padding: 16px;
+}
+
+header #topBar #tel_mail span{
+	padding: 8px;
+}
+
+header #nav{
+	height: 109px;
+}
+
+header #nav h1{
+	font-size: 35px;
+}
+
+header #nav .menu{
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+header #nav .menu li{
+	list-style-type: none;
+	margin-left: 30px;
+}
+
+header #nav .menu a{
+	text-decoration: none;
+}
+
+header #nav .menu a:visited{
+	color: #3E3E3E;
+	font-weight: lighter;
+}
+
+header #nav .menu a span{
+	margin-left: 45px;
+	background-color: #38ADA9;
+	font-size: 16px;
+	color: white;
+	padding: 19px 30px 19px 30px;
+	border-radius: 35px;
+}
+
+
+/* CONTENU */
+
+	/* Slider */
+#slider{
+	background: url('../img/slider/1.png');
+	background-size: cover;
+	color: white;
+}
+
+#slider .slide{
+	background: linear-gradient(-90deg, rgba(56, 173, 169, 0.7), rgba(9, 62, 60, 0.7));
+	height: 831.84px;
+}
+
+#slider .slide div{
+	padding: 208px 448px 208px 448px;
+	width: 1025px;
+}
+
+#slider .slide h1{
+	font-size: 55px;
+	font-weight: 450;
+	width: 1025px;
+	line-height: 80px;
+}
+
+#slider .slide p{
+	height: 92px;
+	font-size: 16px;
+	font-weight: initial;
+	padding: 0px 423px 0px 8px;
+}
+
+#slider .slide .button{
+	display: block;
+	width: 228px;
+	border-radius: 35px;
+	background-color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 15px;
+	padding: 19px 0 19px 0;
+}
