@@ -19,18 +19,13 @@
 
 
 body{
-	font-family: 'poppins';
-	color: #3E3E3E;
-	font-size: 14px;
-}
-
-.green{
-	color: #38ADA9;
+	margin: 0px;
 }
 
 .flex{
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	align-items: center;
 }
 
@@ -44,40 +39,45 @@ header #topBar{
 }
 
 header #topBar #tel_mail span{
-	padding: 8px;
+	margin: 8px;
+	min-width: 200px;
 }
 
 header #nav{
-	height: 109px;
+	margin-bottom: 5px;
 }
 
 header #nav h1{
 	font-size: 35px;
+	margin-left: 70px;
+	margin-right: 70px;
 }
 
-header #nav .menu{
+header #nav .menu ul{
+	margin-right: 10px;
 	padding: 0;
 	display: flex;
 	justify-content: space-between;
-
 }
 
 header #nav .menu li{
 	list-style-type: none;
-	margin-left: 30px;
+	margin: 15px;
+	margin-bottom: 12px;
 }
 
 header #nav .menu a{
 	text-decoration: none;
 }
 
-header #nav .menu a:visited{
+header #nav a:visited{
 	color: #3E3E3E;
 	font-weight: lighter;
 }
 
-header #nav .menu a span{
-	margin-left: 45px;
+header #nav a span{
+	margin-left: 50px;
+	margin-right: 50px;
 	background-color: #38ADA9;
 	font-size: 16px;
 	color: white;
@@ -95,28 +95,51 @@ header #nav .menu a span{
 	color: white;
 }
 
+@media screen and (max-width: 1060px){
+	#slider{
+		margin-top: 20px;
+	}
+}
+
 #slider .slide{
 	background: linear-gradient(-90deg, rgba(56, 173, 169, 0.7), rgba(9, 62, 60, 0.7));
 	height: 831.84px;
+	flex-wrap: nowrap;
 }
 
 #slider .slide div{
-	padding: 208px 448px 208px 448px;
+	/*padding: 208px 448px 208px 448px;*/
+	padding: 4px;
 	width: 1025px;
+}
+
+@media screen and (max-width: 900px){
+	#slider .slide div{
+		text-align: center;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	@media screen and (max-width: 600px){
+		#slider .slide div h1{
+			font-size: 32px;
+			line-height: auto;
+		}
+	}
 }
 
 #slider .slide h1{
 	font-size: 55px;
 	font-weight: 450;
-	width: 1025px;
+	width: 100%;
 	line-height: 80px;
 }
 
 #slider .slide p{
-	height: 92px;
+	min-height: 92px;
 	font-size: 16px;
-	font-weight: initial;
-	padding: 0px 423px 0px 8px;
+	/*padding: 0px 423px 0px 8px;*/
 }
 
 #slider .slide .button{
