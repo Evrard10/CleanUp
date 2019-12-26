@@ -7,14 +7,25 @@
 		h1
 		.menu
 
-- Contenu
+- Footer
+
+
+Pages:
+
+- ACCUEIL
 	#slider
 		.slide
 			.title
 			.description
 			.button
 
-- Footer
+- TRAVAUX
+	#slider
+		.slide
+			.title
+			.description
+			.button
+	#exemples
 */
 
 
@@ -86,35 +97,35 @@ header #nav a span{
 }
 
 
-/* CONTENU */
+/* ACCUEIL */
 
 	/* Slider */
-#slider{
-	background: url('../img/slider/1.png');
+#accueil #slider{
+	background: url('../img/accueil/slide.png');
 	background-size: cover;
 	color: white;
 }
 
 @media screen and (max-width: 1060px){
-	#slider{
+	#accueil #slider{
 		margin-top: 20px;
 	}
 }
 
-#slider .slide{
+#accueil #slider .slide{
 	background: linear-gradient(-90deg, rgba(56, 173, 169, 0.7), rgba(9, 62, 60, 0.7));
 	height: 831.84px;
 	flex-wrap: nowrap;
 }
 
-#slider .slide div{
+#accueil #slider .slide div{
 	/*padding: 208px 448px 208px 448px;*/
 	padding: 4px;
 	width: 1025px;
 }
 
 @media screen and (max-width: 900px){
-	#slider .slide div{
+	#accueil #slider .slide div{
 		text-align: center;
 		display: flex;
 		flex-wrap: wrap;
@@ -129,20 +140,20 @@ header #nav a span{
 	}
 }
 
-#slider .slide h1{
+#accueil #slider .slide h1{
 	font-size: 55px;
 	font-weight: 450;
 	width: 100%;
 	line-height: 80px;
 }
 
-#slider .slide p{
+#accueil #slider .slide p{
 	min-height: 92px;
 	font-size: 16px;
 	/*padding: 0px 423px 0px 8px;*/
 }
 
-#slider .slide .button{
+#accueil #slider .slide .button{
 	display: block;
 	width: 228px;
 	border-radius: 35px;
@@ -152,4 +163,123 @@ header #nav a span{
 	text-align: center;
 	margin-top: 15px;
 	padding: 19px 0 19px 0;
+}
+
+/* Travaux */
+
+	/* Slider */
+#travaux #slider{
+	background: url('../img/travaux/slide.jpg');
+	background-size: cover;
+	color: white;
+}
+
+@media screen and (max-width: 1060px){
+	#travaux #slider{
+		margin-top: 20px;
+	}
+}
+
+#travaux #slider .slide{
+	background: linear-gradient(-90deg, rgba(56, 173, 169, 0.7), rgba(9, 62, 60, 0.7));
+	height: 831.84px;
+	flex-wrap: nowrap;
+}
+
+#travaux #slider .slide div{
+	/*padding: 208px 448px 208px 448px;*/
+	padding: 4px;
+	width: 1025px;
+}
+
+@media screen and (max-width: 900px){
+	#travaux #slider .slide div{
+		text-align: center;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	@media screen and (max-width: 600px){
+		#slider .slide div h1{
+			font-size: 32px;
+			line-height: auto;
+		}
+	}
+}
+
+#travaux #slider .slide h1{
+	font-size: 55px;
+	font-weight: 450;
+	width: 100%;
+	line-height: 80px;
+}
+
+#travaux #slider .slide p{
+	min-height: 92px;
+	font-size: 16px;
+	/*padding: 0px 423px 0px 8px;*/
+}
+
+#travaux #slider .slide .button{
+	display: block;
+	width: 228px;
+	border-radius: 35px;
+	background-color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 15px;
+	padding: 19px 0 19px 0;
+}
+
+	/*exemples*/
+#exemples{
+	text-align: center;
+	margin-top: 100px;
+	background-color: #FAFAFA;
+}
+
+#exemples *{
+	margin-top: 20px;
+}
+
+#exemples h1{
+	font-size: 36px;
+	font-weight: 500;
+}
+
+#exemples h2{
+	font-size: 22px;
+	font-weight: 500;
+}
+
+#exemples p{
+	font-size: 14;
+	font-weight: lighter;
+}
+
+#exemples .images{
+	justify-content: center;
+}
+
+#exemples .images img{
+	width: 50%;
+}
+
+#exemples .images p{
+	width: 50%;
+	font-size: 22px;
+}
+
+@media screen and (max-width: 900px){
+
+	#exemples{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	#exemples .images img{
+		width: 100%;
+	}
 }
