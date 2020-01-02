@@ -1,0 +1,163 @@
+/*
+- Header
+	#topBar
+		#welcome
+		#tel_mail
+	#nav
+		h1
+		.menu
+
+- Accueil
+	#slider11
+		.slide11
+			.title
+			.description
+			.button
+	#travauxEffectuer
+
+- Footer
+*/
+
+
+body{
+	margin: 0px;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+
+/* HEADER */
+header #topBar{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	font-size: 15px;
+	font-weight: lighter;
+	padding: 16px;
+}
+
+header #topBar #tel_mail span{
+	margin: 8px;
+	min-width: 200px;
+}
+
+header #nav{
+	margin-bottom: 5px;
+}
+
+header #nav h1{
+	font-size: 35px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+header #nav .menu ul{
+	margin-right: 10px;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+header #nav .menu li{
+	list-style-type: none;
+	margin: 15px;
+	margin-bottom: 12px;
+}
+
+header #nav .menu a{
+	text-decoration: none;
+}
+
+header #nav a:visited{
+	color: #3E3E3E;
+	font-weight: lighter;
+}
+
+header #nav a span{
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: #38ADA9;
+	font-size: 16px;
+	color: white;
+	padding: 19px 30px 19px 30px;
+	border-radius: 35px;
+}
+
+
+/* service */
+
+	/* Slider */
+#slider11{
+	background: url('../img/travaux/slide.jpg');
+	background-size: cover;
+	color: white;
+}
+
+@media screen and (max-width: 1060px){
+	#slider11{
+		margin-top: 20px;
+	}
+}
+
+#slider11 .slide11{
+	background: linear-gradient(-90deg, rgba(56, 173, 169, 0.7), rgba(9, 62, 60, 0.7));
+	height: 831.84px;
+	flex-wrap: nowrap;
+}
+
+#slider11 .slide11 div{
+	/*padding: 208px 448px 208px 448px;*/
+	padding: 4px;
+	width: 1025px;
+}
+
+@media screen and (max-width: 900px){
+	#slider11 .slide11 div{
+		text-align: center;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	@media screen and (max-width: 600px){
+		#slider11 .slide11 div h1{
+			font-size: 32px;
+			line-height: auto;
+		}
+	}
+}
+
+#slider11 .slide11 h1{
+	font-size: 55px;
+	font-weight: 450;
+	width: 100%;
+	line-height: 80px;
+}
+
+#slider11 .slide11 p{
+	min-height: 65px;
+	font-size: 16px;
+	/*padding: 0px 423px 0px 8px;*/
+}
+
+#slider11 .slide11 .button{
+	display: block;
+	width: 228px;
+	border-radius: 35px;
+	background-color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 15px;
+	padding: 19px 0 19px 0;
+}
+#services {
+display: block;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
