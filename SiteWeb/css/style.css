@@ -26,6 +26,7 @@ Pages:
 			.description
 			.button
 	#exemples
+	#temoignages
 */
 
 
@@ -79,11 +80,17 @@ header #nav .menu li{
 }
 
 header #nav .menu a{
+	color: #3E3E3E;
 	text-decoration: none;
 }
 
 header #nav a:visited{
 	color: #3E3E3E;
+	font-weight: lighter;
+}
+
+header #nav .lvl1:visited{
+	color: #38ADA9;
 	font-weight: lighter;
 }
 
@@ -284,6 +291,56 @@ header #nav a span{
 		width: 100%;
 	}
 }
+	/*temoignages*/
+#travaux #temoignages{
+	text-align: center;
+	margin-top: 100px;
+}
+
+#travaux #temoignages *{
+	margin-top: 60px;
+}
+
+#travaux #temoignages h1{
+	font-size: 36px;
+	font-weight: 500;
+}
+
+#travaux #temoignages p{
+	font-size: 14;
+	font-weight: lighter;
+}
+
+#travaux #temoignages .images{
+	justify-content: center;
+}
+
+#travaux #temoignages .images img{
+	width: 50%;
+}
+
+#travaux #temoignages .images p{
+	width: 50%;
+	font-size: 22px;
+}
+
+#travaux #temoignages center p{
+	color: white;
+	background-color: #38ADA9;
+	font-size: 18px;
+	padding: 10px;
+	width: 350px;
+	text-align: center;
+}
+
+@media screen and (max-width: 380px){
+	#travaux #temoignages center p
+	{
+		width: 90%;
+	}
+}
+
+
 
 
 
@@ -366,8 +423,6 @@ header #nav a span{
 	justify-content: space-evenly;
 	flex-direction: row;
 	flex-flow: wrap;
-
-
 }
 #services .box{
 	width: 21%;
@@ -399,7 +454,6 @@ header #nav a span{
 @media screen and (max-width: 600px ){
 	#services .box{
 		width: 90%;
-		
 	}
 }
 /* Contact US */
@@ -413,7 +467,6 @@ header #nav a span{
 	justify-content: center;
 	text-align: center;
 	color: #fff;
-
 }
 #services #slider12 .slide12 p{
 	color: #fff;
@@ -422,7 +475,6 @@ header #nav a span{
 	width: 80%;
     margin-left: 128px;
     margin-top: 14px;
-
 }
 #services #form em{
 	color: red;
