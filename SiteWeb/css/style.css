@@ -49,6 +49,7 @@ body{
 
 /* HEADER */
 header #topBar{
+	color: #7C7C7C;
 	text-align: center;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	font-size: 15px;
