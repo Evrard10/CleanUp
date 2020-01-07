@@ -68,6 +68,7 @@ header #nav{
 
 header #nav h1{
 	font-size: 35px;
+	font-weight: 900;
 	margin-left: 70px;
 	margin-right: 70px;
 }
@@ -148,7 +149,7 @@ header #nav a span{
 }
 
 #accueil #slider .slide{
-	background: linear-gradient(-90deg, rgba(56, 173, 169, 0.7), rgba(9, 62, 60, 0.7));
+	background: linear-gradient(-90deg, rgba(56, 173, 169, 0.7), rgba(09, 44, 42, 0.7));
 	height: 831.84px;
 	flex-wrap: nowrap;
 }
