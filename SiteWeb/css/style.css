@@ -469,6 +469,8 @@ header #nav a span{
 	padding: 10px;
 	width: 350px;
 	text-align: center;
+	font-style: italic;
+	font-weight: bold;
 }
 
 @media screen and (max-width: 380px){
