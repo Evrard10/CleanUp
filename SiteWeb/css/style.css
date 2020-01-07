@@ -269,7 +269,12 @@ header #nav a span{
 }
 
 @media screen and (max-width: 800px){
+	#abtus #slider{
+		text-align: center;
+	}
+
 	#abtus #slider .slide .descri p{
+		text-align: left;
 		font-size: medium;
 		line-height: 30px;
 	}
