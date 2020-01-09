@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Renouvel | Demandez une prestation</title>
+	<link rel="stylesheet" type="text/css" href="css/quote.css">
+	<link rel="stylesheet" type="text/css" href="css/charte.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style_services.css">
+	<link rel="stylesheet" type="text/css" href="css/charte.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <style>
+       
+    
+    </style>
+</head>
+<body class="font" id="accueil">
+<!-- Header-->
+<header>
+	<div id="topBar" class="flex">
+		<div id="welcome">Bienvenue chez votre propreté</div>
+		<div id="tel_mail" class="flex">
+			<span>Téléphone: +212 800 066606</span>
+			<span>Email: <mail class="lvl1">info@renouvel.com</mail></span>
+		</div>
+	</div>
+	<div id="nav" class="flex">
+		<h1 class="lvl1">Renouvel</h1>
+		<div class="menu flex">
+			<ul class="flex">
+				<li><a href="index.html" >Accueil</a></li>
+				<li><a href="abtus.html"   >A propos</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="travaux.html" >Nos travaux</a></li>
+				<li><a href="blogs.html"   >Blogs</a></li>
+				<li><a href="contact.html" >Contact</a></li>
+			</ul>
+			<a href="quote.html" class="lvl1"><span>Demandez une prestation</span></a>
+		</div>
+	</div>
+</header><br /><br /><br />
+
+<!-- contenu -->
+<section id="flexx">
+    <div class="bat">
+		<hr color="#7C7C7C"; width="500"; size="1" />
+        <p class="prestation">Accueil > <span class="tetu">Demandez une prestation</span></p>
+		<p class="nous">CONTACTEZ-NOUS</p>
+		<h1 id="demande" class="lvl2">Demande<br /> d'une <br />prestation</h1>
+		<hr color="#7C7C7C"; width="50%"; size="1" class="ligne1"/>
+		<hr color="#7C7C7C"; width="50%"; size="1" class="ligne2"/>
+	</div>
+	<div id="log">
+		<img src="img/quote/1.png" alt="" id="img1"/>
+		<img src="img/quote/2.png" alt="" id="img2"/>
+		<img src="img/quote/3.png" alt="" id="img3" class="ligne1"/>
+	</div>
+	<div class="gcolumn" id="gcolumn">
+		<p class="conf">Vous recherchez un professionnel<br /> sur qui baser votre confiance ?</p>
+		<img src="img/quote/4.png" alt="" />
+		<div id="img5">
+			<img src="img/quote/5.png" alt="" />
+		</div>
+	</div>
+	<form method="post" action="traitement.php">
+		<p id="bloc">
+			<div id="block">
+				<div class="label">
+					<label for="pseudo"></label>
+					<input type="text" name="pseudo" id="pseudo" placeholder="NOM" size="25" required  />
+					<label for="pseudo"></label>
+					<input type="text" name="pseudo" id="pseudo" placeholder="PRÉNOM" size="25" required class="prenom"/>
+				</div><br />
+				<div class="label">
+					<label for="pseudo"></label>
+					<input type="text" name="pseudo" id="pseudo" placeholder="TÉLÉPHONE" size="25" required />
+					<label for="pseudo"></label>
+					<input type="text" name="pseudo" id="pseudo" placeholder="ADRESSE EMAIL" size="25" required  class="prenom" />
+				</div><br />
+				<div class="label">
+					<label for="pseudo"></label>
+					<input type="text" name="pseudo" id="pseudo" placeholder="VILLE" size="25" required class="postal" />
+					<label for="pseudo"></label>
+					<input type="text" name="pseudo" id="pseudo" placeholder="CODE POSTAL" size="25" required  class="prenom" id="postal"/>
+				</div><br />
+				<div class="label">
+					<label for="pseudo">PARTICULIER<input type="radio" name="pseudo" id="pseudo" value="CODE POSTAL" required></label>
+					<label for="pseudo">PROFESSIONNEL<input type="radio" name="pseudo" id="pseudo" value="CODE POSTAL" required></label>
+					<label for="pseudo">SERVICE ANNEXE<input type="radio" name="pseudo" id="pseudo" value="CODE POSTAL" required></label>
+				</div><br />
+				<div class="label">
+						<label for="choix"></label>
+						<select name="choix" id="choix"  class="choix">
+							<option value="aaaaaaaaaaa" selected>- SÉLECTIONNER -</option>
+							<option value="aaaaaaaaaaa">TRAITEMENT DES SOLS</option>
+							<option value="bbbbbbbbbbb">SERVICE HIVERNAL</option>
+							<option value="ccccccccccc">SERVICE DU LINGE</option>
+							<option value="ddddddddddd">NETTOYAGE SAISONNIER</option>
+							<option value="ddddddddddd">NETTOYAGE JOURNALIER</option>
+							<option value="ddddddddddd">NETTOYAGE HAUTE PRESSION</option>
+							<option value="ddddddddddd">LAVAGE DE VITRE</option>
+							<option value="ddddddddddd">ESPACE VERT</option>
+						</select>
+						<label for="home"></label>
+						<select name="home" id="home" class="home">
+							<option value="aaaaaaaaaaa" selected>MAISON</option>
+							<option value="aaaaaaaaaaa">APPARTEMENT</option>
+							<option value="bbbbbbbbbbb">BÂTIMENT</option>
+							<option value="ccccccccccc">AUTRE</option>
+						</select>
+				</div><br />
+				<div class="label">
+					<label for="pseudo">40-80 M²<input type="radio" name="pseudo" id="pseudo" value="CODE POSTAL" required /></label>
+					<label for="pseudo">80-120 M²<input type="radio" name="pseudo" id="pseudo" value="CODE POSTAL" required /></label>
+					<label for="pseudo">120-200 M²<input type="radio" name="pseudo" id="pseudo" value="CODE POSTAL" required /></label>
+					<label for="pseudo">>200 M²<input type="radio" name="pseudo" id="pseudo" value="CODE POSTAL" required /></label>
+				</div><br />
+			</div><br />
+			<textarea rows="10" cols="73" placeholder=" MESSAGE" maxlength="1000" required id="area"></textarea><br /><br />
+			<input type="submit" value="ENVOYER" style="width:533px; height: 40px; color: white; background: #7C7C7C; border: none;" />
+		</p>
+	</form>
+</section><br /><br /><br />
+<div class="prix">
+	<div class="pr">
+		<i class="far fa-star lvl1"></i><br>
+		<h2 class="lvl1">Nettoyage de bueaux</h2>
+		<div class="line"></div>
+		<h1>$120</h1>
+		<h4>Par Mois</h4><br>
+		<h4>Cleaning floors</h4>
+		<h4>Clean windows </h4>
+		<h4>Clean the walls</h4>
+		<h4>Organization of furniture </h4>
+		<h4>Home Services</h4>
+		<button class="prbtn font"> Achter Maintenant</button>
+		
+
+	</div>
+	<div class="pr">
+		<i class="far fa-star lvl1"></i><br>
+		<h2 class="lvl1">Nettoyage de bueaux</h2>
+		<div class="line"></div>
+		<h1>$120</h1>
+		<h4>Par Mois</h4><br>
+		<h4>Cleaning floors</h4>
+		<h4>Clean windows </h4>
+		<h4>Clean the walls</h4>
+		<h4>Organization of furniture </h4>
+		<h4>Home Services</h4>
+		<button class="prbtn font"> Achter Maintenant</button>
+		
+
+	</div>
+	<div class="pr">
+		<i class="far fa-star lvl1"></i><br>
+		<h2 class="lvl1">Nettoyage de bueaux</h2>
+		<div class="line"></div>
+		<h1>$120</h1>
+		<h4>Par Mois</h4><br>
+		<h4>Cleaning floors</h4>
+		<h4>Clean windows </h4>
+		<h4>Clean the walls</h4>
+		<h4>Organization of furniture </h4>
+		<h4>Home Services</h4>
+		<button class="prbtn font"> Achter Maintenant</button>
+		
+
+	</div>
+	<div class="pr">
+		<i class="far fa-star lvl1"></i><br>
+		<h2 class="lvl1">Nettoyage de bueaux</h2>
+		<div class="line"></div>
+		<h1>$120</h1>
+		<h4>Par Mois</h4><br>
+		<h4>Cleaning floors</h4>
+		<h4>Clean windows </h4>
+		<h4>Clean the walls</h4>
+		<h4>Organization of furniture </h4>
+		<h4>Home Services</h4>
+		<button class="prbtn font"> Achter Maintenant</button>
+		
+
+	</div>
+</div><br /><br />
+<!-- Footer-->
+<footer>
+	<center id="footer_logo"><h1 class="lvl1">Renouvel</h1></center>
+		<div class="footer flex">
+			<div>
+				<h1 class="lvl3">Vision rapide</h1>
+				<ul>
+					<li><a href="index.html"   >Accueil</a></li>
+					<li><a href="abtus.html"   >A propos</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="travaux.html" >Nos travaux</a></li>
+					<li><a href="blogs.html"   >Blogs</a></li>
+					<li><a href="contact.html" >Contact</a></li>
+					<li><a href="quote.html" >Demander une prestation</a></li>
+				</ul>
+			</div>
+			<div>
+				<h1 class="lvl3">Services</h1>
+					<ul>
+						<li><a href="services.html#s_commercial">Nettoyage commercial</a></li>
+						<li><a href="services.html#s_residentille">Nettoyage résidentiel</a></li>
+						<li><a href="services.html#s_bureaux">Nettoyage de bureaux</a></li>
+						<li><a href="services.html#s_saison">Nettoyage saisonnière</a></li>
+						<li><a href="services.html#s_event">Nettoyage événements</a></li>
+					</ul>
+				</div>
+			<div>
+				<h1 class="lvl3">Contactez-Nous</h1>
+					<ul>
+						<li>Téléphone : +212 800 066606</li>
+						<li>Email : info@Renouvel.com</li>
+						<li>Fax : +212 800 066606</li>
+					</ul>
+			</div>
+		</div>
+	<center id="copy" class="lvl3">copyright © 2020 BOUFARA Mustapha</center>
+</footer>
+</body>
+</html>
