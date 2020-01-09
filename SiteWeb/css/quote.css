@@ -162,10 +162,10 @@ header #nav a span{
 	margin-left: 120px;
 }
 .choix{
-	margin-left: -50px;
+	margin-left: -63px;
 }
 .home{
-	width: 208px;
+	width: 203px;
 }
 
 /*-------FOOTER----------*/
@@ -267,6 +267,7 @@ footer .footer ul li a:visited{
 		margin-right: -10px;
 		flex-direction: column;
 		margin-top: 40px;
+		font-size: ;
 	}
 	#bloc{
 		display: flex;
@@ -296,6 +297,9 @@ footer .footer ul li a:visited{
 	}
 	.prenom{
 		margin-right: 5px;
+	}
+	#demande{
+		font-size: 25px;
 	}
 
 }
