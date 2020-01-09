@@ -1,0 +1,182 @@
+body{
+	margin: 0px;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+    align-items: center;
+}
+
+/* HEADER */
+header #topBar{
+	text-align: center;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	font-size: 15px;
+	font-weight: lighter;
+    padding: 16px;
+}
+
+header #topBar #tel_mail span{
+	margin: 8px;
+	min-width: 200px;
+}
+
+header #nav{
+	margin-bottom: 5px;
+}
+
+header #nav h1{
+	font-size: 35px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+header #nav .menu ul{
+	margin-right: 10px;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+header #nav .menu li{
+	list-style-type: none;
+	margin: 15px;
+	margin-bottom: 12px;
+}
+
+header #nav .menu a{
+	color: #3E3E3E;
+	text-decoration: none;
+}
+
+header #nav a:visited{
+	color: #3E3E3E;
+	font-weight: lighter;
+}
+
+header #nav .lvl1:visited{
+	color: #38ADA9;
+	font-weight: lighter;
+}
+.lvl1{
+    color: #38ADA9;
+    font-family: 'poppins';
+}
+
+header #nav a span{
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: #38ADA9;
+	font-size: 16px;
+	color: white;
+	padding: 19px 30px 19px 30px;
+	border-radius: 35px;
+}
+
+.bug{                           /* h1:derniers blogs */
+    color: #38ADA9;
+    font-size: 36px;
+    font-family: 'poppins';
+    justify-content: center;
+    font-weight: normal;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+
+}
+
+.image{                         /* les images de la page blog */
+    display: flex;
+    width: 450px;
+    height: auto;
+    border-radius: 5px;
+}
+#bad{
+    margin-bottom: 100px;
+}
+.ht{
+    padding-top: 15px;
+}
+
+.xlargeur{                      /* tous les sous-titres h2 */
+    width: 500px;
+    font-size: 20px;
+    font-family: 'poppins';
+    color: #38ADA9;
+    
+}
+.taille{
+    width: 450px;
+    font-size: 14px;
+    font-family: 'poppins';
+    bottom: 50px;
+    text-align: justify;
+}
+
+.date{                          /* toutes les dates de la page */
+    font-size: 14px;
+    font-style: italic;
+    font-family: 'poppins';
+    font-weight: lighter;
+}
+
+.detail{                        /* la description des articles */
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'poppins';
+}
+#bloc{
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+		
+/*-------FOOTER----------*/
+
+footer{
+	background-color: #38ADA9;
+	padding-bottom: 30px;
+}
+
+footer #footer_logo{
+	margin: auto;
+	width: 320px;
+	font-size: 24px;
+	background-color: white;
+	text-align: center;
+	border-radius: 0px 0px 20px 20px;
+}
+
+footer .footer{
+	align-items: flex-start;
+	font-weight: lighter;
+}
+
+footer .footer div{
+	min-width: 250px;
+}
+
+footer .footer div h1{
+	background-color: white;
+	text-align: center;
+	border-radius: 20px;
+	font-weight: lighter;
+}
+
+footer .footer ul{	
+}
+
+footer .footer ul li a{
+	text-decoration: none;
+	color: #3E3E3E;
+	text-decoration: none;
+}
+
+footer .footer ul li a:visited{
+	color: #3E3E3E;
+	font-weight: lighter;
+}
