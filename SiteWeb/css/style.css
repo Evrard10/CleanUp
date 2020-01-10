@@ -238,45 +238,45 @@ header #nav a span{
 
 /* Services accueil (index) */
 
-#services_index{
+#accueil #services_index{
 	background-color: #FAFAFA;
 	padding-top: 80px;
 	flex-direction: column;
 	justify-content: center;
 }
 
-#services_index h1{
+#accueil #services_index h1{
 	text-align: center;
 	font-weight: 450;
 	font-size: 36px;
 }
 
-#services_index .contenue{
+#accueil #services_index .contenue{
 	margin: auto;
 }
 
-#services_index .contenue h1{
+#accueil #services_index .contenue h1{
 	text-align: left;
 	font-size: 22px;
 }
 
-#services_index .contenue article{
+#accueil #services_index .contenue article{
 	width: 279px;
 	margin: auto 28px;
 }
 
-#services_index .contenue article img{
+#accueil #services_index .contenue article img{
 	width: 100%;
 	height: auto;
 	margin: 21px auto;
 }
 
-#services_index .contenue article p{
+#accueil #services_index .contenue article p{
 	font-weight: lighter;
 	line-height: 30px;
 }
 
-#services_index span{
+#accueil #services_index span{
 	margin: 60px auto;
 	margin-left: 50px;
 	margin-right: 50px;
@@ -287,39 +287,43 @@ header #nav a span{
 	border-radius: 35px;
 }
 
-#services_index span a:visited{
+#accueil #services_index span a{
+	text-decoration: none;
+}
+
+#accueil #services_index span a:visited{
 	color: white;
 }
 
 
 /* Abtus accueil (index) */
-#abtus_index{
+#accueil #abtus_index{
 	max-width: 1157px;
 	min-height: 762px;
 	margin: 80px auto;
 }
 
-#abtus_index .slide{
+#accueil #abtus_index .slide{
 	flex-wrap: nowrap;
 	align-items: flex-end;
 }
 
 
-#abtus_index .slide div{
+#accueil #abtus_index .slide div{
 	width: 49%;
 }
 
-#abtus_index .slide img{
+#accueil #abtus_index .slide img{
 	height: 762px;
 	width: auto;
 	margin-top: 170px;
 }
 
-#abtus_index .slide .descri{
+#accueil #abtus_index .slide .descri{
 	/*! height: 762px; */
 }
 
-#abtus_index .slide .descri h3{
+#accueil #abtus_index .slide .descri h3{
 	/*! margin-top: 33px; */
 	margin-bottom: 0px;
 	margin-left: 24px;
@@ -328,7 +332,7 @@ header #nav a span{
 	font-weight: lighter;
 }
 
-#abtus_index .slide .descri h1{
+#accueil #abtus_index .slide .descri h1{
 	margin-top: 13px;
 	margin-bottom: 0px;
 	margin-left: 24px;
@@ -336,7 +340,7 @@ header #nav a span{
 	font-weight: 450;
 }
 
-#abtus_index .slide .descri>p{
+#accueil #abtus_index .slide .descri>p{
 	margin-top: 13px;
 	margin-bottom: 0px;
 	margin-left: 24px;
@@ -346,74 +350,74 @@ header #nav a span{
 }
 
 @media screen and (max-width: 1279px){
-	#abtus_index{
+	#accueil #abtus_index{
 		margin-top: 20px;
 	}
 
-	#abtus_index .slide{
+	#accueil #abtus_index .slide{
 		flex-wrap: wrap-reverse;
 	}
 
-	#abtus_index .slide div{
+	#accueil #abtus_index .slide div{
 		width: 100%;
 	}
 
-	#abtus_index .slide .img{
+	#accueil #abtus_index .slide .img{
 		width: auto;
 	}
 }
 
 @media screen and (max-width: 800px){
-	#abtus_index{
+	#accueil #abtus_index{
 		text-align: center;
 	}
 
-	#abtus_index .slide .descri p{
+	#accueil #abtus_index .slide .descri p{
 		text-align: left;
 		font-size: medium;
 		line-height: 30px;
 	}
 }
 
-#abtus_index #infos{
+#accueil #abtus_index #infos{
 	margin: 10px 0px;
 }
 
-#abtus_index #infos article{
+#accueil #abtus_index #infos article{
 	min-width: 118px;
 	flex-wrap: nowrap;
 	align-items: flex-start;
 	margin-top: 40px;
 }
 
-#abtus_index #infos article .img{
+#accueil #abtus_index #infos article .img{
 	min-width: 80px;
 	text-align: center;
 }
 
-#abtus_index #infos article img{
+#accueil #abtus_index #infos article img{
 	height: 67px;
 	width: auto;
 	margin: auto;
 }
 
-#abtus_index #infos article span{
+#accueil #abtus_index #infos article span{
 	width: 1200px;
 }
 
-#abtus_index #infos article h2{
+#accueil #abtus_index #infos article h2{
 	font-size: 22px;
 	font-weight: 450;
 	text-align: left;
 	margin-top: 0;
 }
 
-#abtus_index #infos article p{
+#accueil #abtus_index #infos article p{
 	font-size: 14px;
 	font-weight: lighter;
 }
 
-#abtus_index #infos > span{
+#accueil #abtus_index #infos > span{
 	display: block;
 	width: 190px;
 	margin: 30px;
@@ -427,18 +431,185 @@ header #nav a span{
 }
 
 @media screen and (max-width: 1274px){
-	#abtus_index .slide>.descri{
+	#accueil #abtus_index .slide>.descri{
 		flex-direction: column-reverse;
 	}
 	
-	#abtus_index #infos > span{
+	#accueil #abtus_index #infos > span{
 		margin: auto;
 	}
 }
 
-#abtus_index #infos > span a:visited{
+#accueil #abtus_index #infos span a{
+	text-decoration: none;
 	color: white;
 }
+
+#accueil  > span a:visited{
+	color: white;
+}
+
+/* Get touch */
+
+#accueil #touch{
+	min-height: 268px;
+	background-color: #38ADA9;
+	justify-content: center;
+}
+
+#accueil #touch p{
+	text-align: center;
+	color: white;
+	font-size: 36px;
+	margin: 20px;
+}
+
+#accueil #touch span{
+	margin: 20px;
+	display: block;
+	width: 190px;
+	background-color: #fff;
+	font-size: 16px;
+	color: white;
+	padding: 19px 0px 19px 0px;
+	border-radius: 35px;
+	text-align: center;
+}
+
+#accueil #touch span a{
+	text-decoration: none;
+}
+
+#accueil #touch span a:visited{
+	color: white;
+}
+
+/* Team */
+
+#accueil #team{
+	margin: 80px auto;
+}
+
+#accueil #team h1{
+	text-align: center;
+	font-size: 36px;
+	font-weight: 450;
+	margin: 80px 0px; 
+}
+
+#accueil #team article{
+	margin: auto;
+	max-width: 1092px;
+}
+
+#accueil #team article div img{
+	width: 288px;
+	margin-bottom: 20px;
+}
+	/*temoignages*/
+#accueil #temoignages{
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: #FAFAFA;
+}
+
+#accueil #temoignages *{
+	margin-top: 60px;
+}
+
+#accueil #temoignages h1{
+	font-size: 36px;
+	font-weight: 500;
+}
+
+#accueil #temoignages p{
+	font-size: 14;
+	font-weight: lighter;
+}
+
+#accueil #temoignages .images{
+	justify-content: center;
+}
+
+#accueil #temoignages .images img{
+	width: 50%;
+}
+
+#accueil #temoignages .images p{
+	width: 50%;
+	font-size: 22px;
+}
+
+#accueil #temoignages center p{
+	color: white;
+	background-color: #38ADA9;
+	font-size: 18px;
+	padding: 10px;
+	width: 350px;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 380px){
+	#accueil #temoignages center p
+	{
+		width: 90%;
+	}
+}
+
+/*exemples*/
+#accueil #exemples{
+	text-align: center;
+	margin-top: 100px;
+}
+
+#accueil #exemples *{
+	margin-top: 20px;
+}
+
+#accueil #exemples h1{
+	font-size: 36px;
+	font-weight: 500;
+}
+
+#accueil #exemples h2{
+	font-size: 22px;
+	font-weight: 500;
+}
+
+#accueil #exemples p{
+	font-size: 14;
+	font-weight: lighter;
+}
+
+#accueil #exemples .images{
+	justify-content: center;
+}
+
+#accueil #exemples .images img{
+	width: 50%;
+}
+
+#accueil #exemples .images p{
+	width: 50%;
+	font-size: 22px;
+	align-self: flex-start;
+}
+
+@media screen and (max-width: 900px){
+
+	#accueil #exemples{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	#accueil #exemples .images img{
+		width: 100%;
+	}
+}
+
 /*---------------------------------------------------------------------------------------------------------*/
 
 /* ABTUS */

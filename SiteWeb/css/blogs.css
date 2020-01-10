@@ -85,6 +85,7 @@ header #nav a span{
     margin-bottom: 100px;
     
 
+    font-weight: 450;
 }
 
 .image{                         /* les images de la page blog */
@@ -106,6 +107,7 @@ header #nav a span{
     font-family: 'poppins';
     color: #38ADA9;
     
+    font-weight: 450;
 }
 .taille{
     width: 450px;
@@ -113,6 +115,7 @@ header #nav a span{
     font-family: 'poppins';
     bottom: 50px;
     text-align: justify;
+    font-weight: lighter;
 }
 
 .date{                          /* toutes les dates de la page */
