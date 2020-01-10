@@ -200,6 +200,245 @@ header #nav a span{
 	margin-top: 15px;
 	padding: 19px 0 19px 0;
 }
+/*
+#US
+  .title
+	Articles
+*/
+
+#accueil #Us{
+	max-width: 1181px;
+	margin: 80px auto;
+}
+#accueil #Us h1{
+	font-size: 36px;
+	font-weight: 450;
+	text-align: center;
+	display: block;
+	width: 100%;
+	margin-bottom: 80px;
+}
+
+#accueil #Us article{
+	width: 380px;
+	text-align: center;
+}
+
+#accueil #Us article span h2{
+	font-weight: 450;
+	font-size: 22px;
+}
+ 
+#accueil #Us article span p{
+	font-size: 14px;
+	font-weight: lighter;
+	line-height: 30px;
+	min-width: 377px;
+}
+
+/* Services accueil (index) */
+
+#services_index{
+	background-color: #FAFAFA;
+	padding-top: 80px;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#services_index h1{
+	text-align: center;
+	font-weight: 450;
+	font-size: 36px;
+}
+
+#services_index .contenue{
+	margin: auto;
+}
+
+#services_index .contenue h1{
+	text-align: left;
+	font-size: 22px;
+}
+
+#services_index .contenue article{
+	width: 279px;
+	margin: auto 28px;
+}
+
+#services_index .contenue article img{
+	width: 100%;
+	height: auto;
+	margin: 21px auto;
+}
+
+#services_index .contenue article p{
+	font-weight: lighter;
+	line-height: 30px;
+}
+
+#services_index span{
+	margin: 60px auto;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: #38ADA9;
+	font-size: 16px;
+	color: white;
+	padding: 19px 30px 19px 30px;
+	border-radius: 35px;
+}
+
+#services_index span a:visited{
+	color: white;
+}
+
+
+/* Abtus accueil (index) */
+#abtus_index{
+	max-width: 1157px;
+	min-height: 762px;
+	margin: 80px auto;
+}
+
+#abtus_index .slide{
+	flex-wrap: nowrap;
+	align-items: flex-end;
+}
+
+
+#abtus_index .slide div{
+	width: 49%;
+}
+
+#abtus_index .slide img{
+	height: 762px;
+	width: auto;
+	margin-top: 170px;
+}
+
+#abtus_index .slide .descri{
+	/*! height: 762px; */
+}
+
+#abtus_index .slide .descri h3{
+	/*! margin-top: 33px; */
+	margin-bottom: 0px;
+	margin-left: 24px;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: lighter;
+}
+
+#abtus_index .slide .descri h1{
+	margin-top: 13px;
+	margin-bottom: 0px;
+	margin-left: 24px;
+	font-size: 36px;
+	font-weight: 450;
+}
+
+#abtus_index .slide .descri>p{
+	margin-top: 13px;
+	margin-bottom: 0px;
+	margin-left: 24px;
+	font-size: 14px;
+	font-weight: lighter;
+	line-height: 30px;
+}
+
+@media screen and (max-width: 1279px){
+	#abtus_index{
+		margin-top: 20px;
+	}
+
+	#abtus_index .slide{
+		flex-wrap: wrap-reverse;
+	}
+
+	#abtus_index .slide div{
+		width: 100%;
+	}
+
+	#abtus_index .slide .img{
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 800px){
+	#abtus_index{
+		text-align: center;
+	}
+
+	#abtus_index .slide .descri p{
+		text-align: left;
+		font-size: medium;
+		line-height: 30px;
+	}
+}
+
+#abtus_index #infos{
+	margin: 10px 0px;
+}
+
+#abtus_index #infos article{
+	min-width: 118px;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	margin-top: 40px;
+}
+
+#abtus_index #infos article .img{
+	min-width: 80px;
+	text-align: center;
+}
+
+#abtus_index #infos article img{
+	height: 67px;
+	width: auto;
+	margin: auto;
+}
+
+#abtus_index #infos article span{
+	width: 1200px;
+}
+
+#abtus_index #infos article h2{
+	font-size: 22px;
+	font-weight: 450;
+	text-align: left;
+	margin-top: 0;
+}
+
+#abtus_index #infos article p{
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+#abtus_index #infos > span{
+	display: block;
+	width: 190px;
+	margin: 30px;
+	margin-left: 16px;
+	background-color: #38ADA9;
+	font-size: 16px;
+	color: white;
+	padding: 19px 0px 19px 0px;
+	border-radius: 35px;
+	text-align: center;
+}
+
+@media screen and (max-width: 1274px){
+	#abtus_index .slide>.descri{
+		flex-direction: column-reverse;
+	}
+	
+	#abtus_index #infos > span{
+		margin: auto;
+	}
+}
+
+#abtus_index #infos > span a:visited{
+	color: white;
+}
 /*---------------------------------------------------------------------------------------------------------*/
 
 /* ABTUS */
@@ -496,6 +735,7 @@ header #nav a span{
 
 /* Services */
 
+
 	/* Slider */
 #services #slider{
 	background: url('../img/travaux/slide.jpg');
@@ -566,7 +806,7 @@ header #nav a span{
 	width: 100%;
 	height: auto;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	flex-direction: row;
 	flex-flow: wrap;
 }
@@ -604,9 +844,6 @@ header #nav a span{
 		width: 90%;
 	}
 }
-/* Contact US */
-
-	/* contact us  */
 
 	#services #slider12 .slide12{
 		background: linear-gradient(-90deg, rgba(56, 173, 169, 0.7), rgba(9, 62, 60, 0.7));
@@ -678,15 +915,16 @@ header #nav a span{
 #services button:hover{
 	background-color: aqua;
 }
+
+
 .con{
-			width: 100%;
-			height: auto;
-			display: flex;
-			justify-content: space-evenly;
-			flex-direction: row;
-			flex-flow: wrap;
-
-
+		width: 1181px;
+height: auto;
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-flow: wrap;
+margin: auto;
 }
 .box{
 	width: 21%;
@@ -702,7 +940,7 @@ header #nav a span{
 .box img{
 	height: 200px;
 	width: 100%;
-	float: right;
+	/*! float: right; */
 }
 .box p{
 	font-size: 14px;
