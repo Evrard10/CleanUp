@@ -46,6 +46,10 @@ body{
 	align-items: center;
 }
 
+a{
+	text-decoration:none;
+}
+
 
 /* HEADER */
 header #topBar{
